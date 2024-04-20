@@ -25,4 +25,4 @@ a. 2 buttons in the car's middle console where each button is used to control on
 heaters.
 b. 1 extra button in the steering wheel to control the driver seat heater to make the usage of the 
 heater easier for the driver.
-![image](https://github.com/Seif-Gama1/Seat-Heater-Control-System/assets/126584186/a0087005-4b4c-4356-918d-6f1a19b4894f)
+![image](https://github.com/Seif-Gama1/Seat-Heater-Control-System/assets/126584186/3b7e8fea-806a-47f3-b322-1468f6fd91ce)
