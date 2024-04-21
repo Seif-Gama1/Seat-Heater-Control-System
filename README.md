@@ -1,5 +1,5 @@
 # Seat-Heater-Control-System
-Implementation of a seat heater control system for the front two seats in the car (driver seat and passenger  seat)
+Implementation of a seat heater control system for the front two seats in the car (driver seat and passenger  seat) using FreeRTOS on TivaC
 
 Each seat shall consist of:
 1. The button that is used to take the input level required to set the seat temperature.
