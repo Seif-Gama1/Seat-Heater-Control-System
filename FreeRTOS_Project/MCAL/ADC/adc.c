@@ -6,8 +6,8 @@
 #include "adc.h"
 #include "PLL.h"
 
-volatile static uint32 adc0Res = 0 ;    /* PB4 */
-volatile static uint32 adc1Res = 0 ;    /* PB5 */
+volatile static uint32 adc0Res = 0 ;    /* PE2 */
+volatile static uint32 adc1Res = 0 ;    /* PE3 */
 
 volatile static uint8  flag0      =0 ;
 volatile static uint8  flag1      =0 ;
@@ -59,8 +59,8 @@ void ADC_SampleSeqInit(void){
     ADC1_ADCEMUX |= ( (0x0)<<12);
 
     /* Configure analog input channels for ADC0 and ADC1 */
-    ADC0_ADCSSMUX3 = 0;   //Activate PB4 for ADC0
-    ADC1_ADCSSMUX3 = 1;   //Activate PB5 for ADC1
+    ADC0_ADCSSMUX3 = 0;   //Activate PE2 for ADC0
+    ADC1_ADCSSMUX3 = 1;   //Activate PE3 for ADC1
 
     /*5. For each sample in the sample sequence, configure the sample control bits in the
        * corresponding nibble in the ADCSSCTLn register. When programming the last nibble,
